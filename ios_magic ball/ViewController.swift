@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
     }
     
-    func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         
         newBallImage()
     }
